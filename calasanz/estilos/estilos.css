@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: rgba(97, 106, 184, 0.212);
+
+}
+.lora-uniquifier {
+  font-family: "Lora", serif;
+}
+
+#titulo {
+  font-family: "Lora", sans-serif;
+  text-align: center;  
+}
+
+#titulo img {
+  width: 5%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-family: "Lora", serif; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(19, 24, 66);
+  border-radius: 0.3pc;
+  width: 100%;
+  height: 55px;
+  margin: auto;
+
+}
+
+nav a {
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 75%;
+  width: 30%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;;
+  border-radius: 0.3pc;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 247, 241);
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(110, 75, 0);
+}

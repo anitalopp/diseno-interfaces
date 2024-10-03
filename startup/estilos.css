@@ -9,13 +9,12 @@ body {
 
 form {
     background-color: #e6e6f0;
-    width: 45%;
+    width: 70%;
     margin: auto;
     border-radius: 0.8rem;
     padding: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     color: #435d43;
-    margin-right: 25%;
 }
 
 h1, h2 {
